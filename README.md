@@ -33,19 +33,23 @@ Module 5: Reporting
 This last Module will introduce the reporting feature. A comprehensive report with the tests done along with the recommendations provided for each vulnerability that has been exploited.
 
 
-## Installation and requirements
-The requirements for this project are:
+## Prerequistes
 
     1) Python 2.7
     2) Java version 1.7 +
     3) sudo apt-get install lksctp-tools
     4) sudo apt-get install libsctp-dev
     5) Linux machine
+    
+ ## Installation 
+ 
+ 1. git clone https://github.com/L-iot/SP2019.git
+ 2. cd into SigPloit
+ 3. sudo pip2 install -r requirements.txt
+ 
+    
 
-To run use
+To run type
 
-    cd SigPloit
-
-sudo pip2 install -r requirements.txt
 
 python sigploit.py
