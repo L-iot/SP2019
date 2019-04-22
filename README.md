@@ -39,12 +39,13 @@ The requirements for this project are:
     1) Python 2.7
     2) Java version 1.7 +
     3) sudo apt-get install lksctp-tools
-    4) Linux machine
+    4) sudo apt-get install libsctp-dev
+    5) Linux machine
 
 To run use
 
-    cd SP2019
-    
-    sudo pip2 install -r requirements.txt
-    
-    python sp2019.py
+    cd SigPloit
+
+sudo pip2 install -r requirements.txt
+
+python sigploit.py
