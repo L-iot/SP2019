@@ -3,16 +3,17 @@
 - Ilario Dal Grande
 
 
-# SigPloit
-SigPloit a signaling security testing framework dedicated to Telecom Security professionals and reasearchers to pentest and exploit vulnerabilites in the signaling protocols used in mobile operators regardless of the geneartion being in use.
-SigPloit aims to cover all used protocols used in the operators interconnects SS7, GTP (3G), Diameter (4G) or even SIP for IMS and VoLTE infrastructures used in the access layer and SS7 message encapsulation into SIP-T.
-Recommendations for each vulnerability will be provided to guide the tester and the operator the steps that should be done to enhance their security posture
+# SP2019
+Is based on the SigPloit.
+it aims to cover all  protocols used by the telco operators to interconnect SS7, GTP (3G), Diameter (4G) or even SIP for IMS and VoLTE infrastructures used in the access layer and SS7 message encapsulation into SIP-T.
 
-SigPloit is developed on several versions
+Recommendations for each vulnerability will be provided to guide the tester and the operator the steps that should be taken to enhance their security posture
 
-Note: In order to test SS7 attacks, you need to have an SS7 access or you can test in the virtual lab with the provided server sides of the attacks, the used values are provided.
+SP2019 consists of several Modules
 
-For brief intro on SigPloit and Telecom Architecture in general please <a href="https://github.com/SigPloiter/SigPloit/wiki/1--Welcome-to-SigPloit">click here </a>
+Note: In order to test SS7 Protocol attacks, you need to have an SS7 access or you can test in the virtual lab with the provided server sides of the attacks, the used values are provided.
+
+For a brief intro on SigPloit and Telecom Architecture in general please <a href="https://github.com/SigPloiter/SigPloit/wiki/1--Welcome-to-SigPloit">click here </a>
 
 SigPloit is referenced in GSMA document FS.07 "SS7 and Sigtran Network Security"
 
@@ -55,7 +56,7 @@ The requirements for this project are:
 
 To run use
 
-    cd SigPloit
+    cd SP2019
     
     sudo pip2 install -r requirements.txt
     
